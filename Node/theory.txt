@@ -1,0 +1,29 @@
+if there are multiple to be exported we export it as an object
+      eg: module.exports = {jhon, peter};
+if only single value, we export simply 
+      eg: module.exports = sayHi;
+# there are also different way we can export
+      module.exports.items = ['item1', 'item2'];
+      module.export.singlePerson = singlePerson
+      where person = {
+        name : "khushi",
+      }
+There are many inbuilt modules are present in node
+    os
+    path
+we interact with file using ('fs') module
+  two ways 
+    a. sync-> blocking
+    b. async-> non blocking
+
+=> npm -global commands, comes with node
+=> npm --version
+=> local dependancy - use it only into this perticual project
+=> npm i <pakagename>
+
+=> global dependancy - use it in any project
+=> npm install -g <pakagename>
+
+=> pakage.json = manifest file (stores imp information about the pakage/project)
+=> creating pakage.json = npm inti -y (direct)
+for manual - > npm init
