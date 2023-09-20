@@ -27,3 +27,15 @@ we interact with file using ('fs') module
 => pakage.json = manifest file (stores imp information about the pakage/project)
 => creating pakage.json = npm inti -y (direct)
 for manual - > npm init
+
+=>--------http module------------
+console.log("Let's learn Express");
+const http = require('http');
+
+const server = http.createServer((req, res)=>{
+      console.log("User hit the server");
+      res.end("Home page");
+})
+server.listen(5000);
+here we are requesting server with bunch of information and whenever we refresh the server (means hitting the server) it will end response with  
+"Home page"
