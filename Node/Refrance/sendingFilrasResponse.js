@@ -2,9 +2,8 @@ const express = require('express');
 const app = express();
 const path = require('path');
 // path for sending path to the current file/diractory
-
 // let's use => app.use middleware for using static asset, 
-// static is a file which server do not change it 
+// static is a file which server do not change 
 // inside static we create public folder, keep all static file inside public folder
 
 // setup static and middleware

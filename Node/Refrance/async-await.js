@@ -21,7 +21,7 @@ const {readFile, writeFile} = require('fs').promises;
 //   })
 // }
 // getText('./content/first.txt').then((data)=>console.log(data)).catch((err)=>console.log(err));
-//asymc await in promises
+//async await in promises
 const start = async ()=>{
 try{
   const first = await readFile('./content/first.txt' ,'utf8');
