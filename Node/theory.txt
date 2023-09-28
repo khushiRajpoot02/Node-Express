@@ -42,3 +42,17 @@ here we are requesting server with bunch of information and whenever we refresh 
 => pakage.json = manifest file (stores imp information about the pakage/project)
 => creating pakage.json = npm inti -y (direct)
 for manual - > npm init
+
+----------------GET POST PUT DELETE--------------
+using postman we can test these methods, here we do not need frontend for it
+1 GET 
+simple route of get methods in postman GET section and click send, it will show the data
+2 POST
+  write route of post method and go to body, inside body go to raw and json
+   and click send button. It will show the added data 
+
+3 DELETE
+
+
+Key Point: whatever logic we want to write, write inside your method's code(on vs code) and for testing we use postman 
+
